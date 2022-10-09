@@ -36,6 +36,8 @@ button{
     background-color: rgb(197, 8, 187);
 }
 .container{
+    min-width:280px;
+    min-height:295px;
     padding: 20px;
     background-color: white;
     opacity: 0.8;
