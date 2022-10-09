@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./index.css">
+    <title>App || Passenger Counter</title>
+</head>
+<body>
+    <script src="./app.js"></script>
+    <div class="container">
+        <h2 id="heading">People entered:</h2>
+        <h2 id="text">0</h2>
+        <div class="buttons">
+		    <button id="increment-btn" onclick="add()">Increment</button>
+            <button id="save-btn" onclick="save()">Save</button>
+		    <button id="decrement-btn" onclick="subtract()">Decrement</button>
+            <button id="delete" onclick="remove()">Delete</button>
+	    </div>
+		<p id="entry">Previous entries:</p>
+		<p id="save-txt"></p>
+    </div>
+</body>
+</html>
